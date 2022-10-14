@@ -25,10 +25,16 @@ nav{
     margin: 25px;
 }
 
-nav .logo{
+nav .logo a{
     font-size: 2em;
     color: white;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav .logo a:hover{
+    color: rgba(127, 255, 212, 0.555);
+    transition-duration: 0.7s;
 }
 
 nav ul{
